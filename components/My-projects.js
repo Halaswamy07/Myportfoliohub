@@ -8,6 +8,9 @@ import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
+import enggpxoImg from '../public/website-screenshoot/enggpxo.png';
+import dippxoImg from '../public/website-screenshoot/dippxo.png';
+import pythonImg from '../public/website-screenshoot/python.png';
 import dipinternImg from '../public/website-screenshoot/dipintern.png';
 import droneImg from '../public/website-screenshoot/drone.png';
 import cnImg from '../public/website-screenshoot/cn.png';
@@ -72,6 +75,36 @@ const MyProjects = () => {
                             <SwiperSlide>
                                 <div className='project_slide pb-5'>
                                     <div className='project_img'>
+                                        <Image src={pythonImg} alt='Python for Datascience' width={500} height={300} />
+                                    </div>
+                                    <div className='content pt-2 px-5'>
+                                        <h5>Python for Datascience</h5>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='project_slide pb-5'>
+                                    <div className='project_img'>
+                                        <Image src={enggpxoImg} alt='Project Expo' width={500} height={300} />
+                                    </div>
+                                    <div className='content pt-2 px-5'>
+                                        <h5>2nd Place Award: Academic Project</h5>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='project_slide pb-5'>
+                                    <div className='project_img'>
+                                        <Image src={dippxoImg} alt='Diploma Project Expo' width={500} height={300} />
+                                    </div>
+                                    <div className='content pt-2 px-5'>
+                                        <h5>I secured a spot in the state-level project exhibition</h5>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='project_slide pb-5'>
+                                    <div className='project_img'>
                                         <Image src={dipinternImg} alt='DIP Internship' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
@@ -82,20 +115,20 @@ const MyProjects = () => {
                             <SwiperSlide>
                                 <div className='project_slide pb-5'>
                                     <div className='project_img'>
-                                        <Image src={droneImg} alt='Drone Project' width={500} height={300} />
+                                        <Image src={droneImg} alt='BE-Internship' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
-                                        <h5>Drone Project</h5>
+                                        <h5>BE-Internship</h5>
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className='project_slide pb-5'>
                                     <div className='project_img'>
-                                        <Image src={cnImg} alt='Communication Networks' width={500} height={300} />
+                                        <Image src={cnImg} alt='Technical Paper Presentation' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
-                                        <h5>Communication Networks</h5>
+                                        <h5>1st Place Winner - Technical Paper Presentation</h5>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -105,7 +138,7 @@ const MyProjects = () => {
                                         <Image src={skitImg} alt='SKIT' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
-                                        <h5>SKIT Project</h5>
+                                        <h5>Winner of 1st Place in Cultural Skit Play</h5>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -115,7 +148,7 @@ const MyProjects = () => {
                                         <Image src={internationalwebniarImg} alt='International Webinar' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
-                                        <h5>International Webinar</h5>
+                                        <h5>Python for Datascience workshop</h5>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -125,7 +158,7 @@ const MyProjects = () => {
                                         <Image src={fkcciImg} alt='FKCCI' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
-                                        <h5>FKCCI</h5>
+                                        <h5>we have secured a place among the top 75 teams in FKCCI Manthan</h5>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -135,7 +168,7 @@ const MyProjects = () => {
                                         <Image src={codsoftImg} alt='Codsoft Internship' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
-                                        <h5>Codsoft Internship</h5>
+                                        <h5>Interned in Artificial Intelligence</h5>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -152,10 +185,10 @@ const MyProjects = () => {
                             <SwiperSlide>
                                 <div className='project_slide pb-5'>
                                     <div className='project_img'>
-                                        <Image src={hackImg} alt='Hackathon' width={500} height={300} />
+                                        <Image src={hackImg} alt='Hacka' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
-                                        <h5>Hackathon Participation</h5>
+                                        <h5>Learn Windows Ethical Hacking and Security</h5>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -165,7 +198,7 @@ const MyProjects = () => {
                                         <Image src={webImg} alt='Web Development' width={500} height={300} />
                                     </div>
                                     <div className='content pt-2 px-5'>
-                                        <h5>Web Development Project</h5>
+                                        <h5>Web Development From The Scratch</h5>
                                     </div>
                                 </div>
                             </SwiperSlide>
