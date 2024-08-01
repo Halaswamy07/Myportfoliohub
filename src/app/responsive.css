@@ -1,0 +1,194 @@
+@media only screen and (max-width:600px) {
+    nav {
+        padding: 0px 10px;
+
+    }
+
+.mobile-none{
+display: none;
+}
+
+    .section_header span {
+        display: none;
+        font-size: 25px;
+        left: 20px;
+    }
+
+.banner .content h5 {
+    font-size: 25px;
+}
+
+.banner .content h1 {
+    font-size: 40px;
+}
+
+.banner .content h6 {
+    font-size: 20px;
+}
+
+    .nav_items {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        background: #000000ed;
+        padding: 40px 0px;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .openmenu {
+        transform: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu .icon {
+        font-size: 40px;
+        color: white;
+    }
+
+    .banner .content {
+        width: 95%;
+        left: 5px;
+    }
+
+    .recent-project h2 {
+        font-size: 60px;
+      }
+
+      .success-message .content-body{
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    nav {
+        padding: 0px 70px;
+
+    }
+
+    .section_header span {
+        font-size: 70px;
+
+    }
+
+    .nav_items {
+        display: flex;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .banner .content {
+        width: 50%;
+        left: 50px;
+    }
+
+    .banner .content h5 {
+        font-size: 35px;
+    }
+
+    .banner .content h1 {
+        font-size: 80px;
+    }
+
+    .banner .content h6 {
+        font-size: 20px;
+    }
+
+
+    .recent-project h2 {
+        font-size: 40px;
+      }
+    
+      .success-message .content-body{
+        width: 65%;
+    }
+
+}
+
+@media only screen and (min-width:998px) {
+    nav {
+        padding: 0px 100px;
+
+    }
+
+    .nav_items {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .banner .content {
+        width: 50%;
+        left: 50px;
+    }
+
+    .banner .content h5 {
+        font-size: 35px;
+    }
+
+    .banner .content h1 {
+        font-size: 80px;
+    }
+
+    .banner .content h6 {
+        font-size: 30px;
+    }
+
+    .recent-project h2 {
+        font-size: 45px;
+      }
+
+.success-message .content-body{
+    width: 50%;
+}
+}
+
+@media only screen and (min-width:1400px) {
+    nav {
+        padding: 0px 100px;
+
+    }
+
+    .nav_items {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .banner .content {
+        width: 50%;
+        left: 50px;
+    }
+
+    .banner .content h5 {
+        font-size: 35px;
+    }
+
+    .banner .content h1 {
+        font-size: 80px;
+    }
+
+    .banner .content h6 {
+        font-size: 30px;
+    }
+
+    .recent-project h2 {
+        font-size: 50px;
+      }
+      .success-message .content-body{
+        width: 50%;
+    }
+
+    }
