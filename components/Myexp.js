@@ -17,8 +17,7 @@ const Myexp = () => {
                 <div className="card-header py-3">
                   <div className="btn" data-bs-toggle="collapse" href="#collapseOne">
                     <p className='margin-0 light'>
-                      Candidate Application Form{' '}
-                      <a href='https://vyzen1.netlify.app/' target='_blank' rel='noopener noreferrer' className='link_heightlight bold'>Company Task</a>
+                      Candidate Application Form
                     </p>
                   </div>
                 </div>
@@ -29,6 +28,7 @@ const Myexp = () => {
                       Utilizing my expertise in Frontend HTML5, CSS3, Bootstrap5, JavaScript, React.js, and
                       Backend node.js, express.js and Database using MongoDB, I actively contribute to website development projects.
                     </p>
+                    <a href='https://vyzen1.netlify.app/' target='_blank' rel='noopener noreferrer' className='link_heightlight bold'>Company Task</a>
                   </div>
                 </div>
               </div>
@@ -37,8 +37,7 @@ const Myexp = () => {
                 <div className="card-header py-3">
                   <div className="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
                     <p className='margin-0 light'>
-                      My All Projects{' '}
-                      <a href='https://github.com/halaswamy07/' target='_blank' rel='noopener noreferrer' className='link_heightlight bold'>GitHub</a>
+                      My All Projects
                     </p>
                   </div>
                 </div>
@@ -51,6 +50,7 @@ const Myexp = () => {
                       trends and technologies in web development, and programming languages such as Python, Java ensuring that my skills remain
                       current and relevant in the ever-evolving landscape of the industry.
                     </p>
+                    <a href='https://github.com/halaswamy07/' target='_blank' rel='noopener noreferrer' className='link_heightlight bold'>GitHub</a>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const Myexp = () => {
           </Col>
           <Col md={1} />
           <Col md={4}>
-            <h5>Technical Skill&apos;s</h5>
+            <h5>Technical Skills</h5>
             <div className="d-flex gap-2 flex-wrap">
               <p className='skil_card light px-3 py-2'>HTML5</p>
               <p className='skil_card light px-3 py-2'>CSS3</p>
@@ -67,7 +67,7 @@ const Myexp = () => {
               <p className='skil_card light px-3 py-2'>React.js (v18)</p>
               <p className='skil_card light px-3 py-2'>React Router</p>
               <p className='skil_card light px-3 py-2'>Next.js (v14)</p>
-              <p className='skil_card light px-3 py-2'>Rest API&apos;s</p>
+              <p className='skil_card light px-3 py-2'>Rest APIs</p>
               <p className='skil_card light px-3 py-2'>Node.js and Express.js</p>
               <p className='skil_card light px-3 py-2'>MongoDB, MySQL</p>
               <p className='skil_card light px-3 py-2'>NPM</p>
